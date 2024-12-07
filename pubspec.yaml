@@ -1,0 +1,27 @@
+name: duolungo
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  chips_choice: ^3.0.1
+  clipboard: ^0.1.3
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.2.1
+  get_it: ^8.0.2
+  google_generative_ai: ^0.4.6
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
