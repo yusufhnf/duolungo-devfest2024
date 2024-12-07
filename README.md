@@ -21,7 +21,7 @@ Duolungo is a smart translator app that leverages the power of Gemini AI to prov
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yusufhnf/duolungo.git
+   git clone https://github.com/yusufhnf/duolungo-devfest2024.git
    cd duolungo
    ```
 
