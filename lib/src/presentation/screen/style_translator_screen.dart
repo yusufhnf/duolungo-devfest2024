@@ -2,10 +2,10 @@ import 'package:chips_choice/chips_choice.dart';
 import 'package:clipboard/clipboard.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get_it/get_it.dart';
 
 import '../../core/constants/constants.dart';
 import '../../core/services/gemini_service.dart';
-import '../../core/di/locator.dart';
 
 class StyleTranslatorScreen extends StatefulWidget {
   const StyleTranslatorScreen({super.key});
@@ -19,7 +19,7 @@ class _StyleTranslatorScreenState extends State<StyleTranslatorScreen> {
   bool _isLoading = false;
   String _result = "";
   final TextEditingController _controller = TextEditingController();
-  final GeminiService _geminiService = locator<GeminiService>();
+  final GeminiService _geminiService = GetIt.I<GeminiService>();
   @override
   Widget build(BuildContext context) {
     return SafeArea(
